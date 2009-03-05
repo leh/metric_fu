@@ -52,7 +52,6 @@ Gem::Specification.new do |s|
    "spec/flog_spec.rb",
    "spec/md5_tracker_spec.rb",
    "spec/reek_spec.rb",
-   "spec/roodi_spec.rb",
    "spec/spec_helper.rb"]
 
 
@@ -61,7 +60,7 @@ Gem::Specification.new do |s|
   s.extra_rdoc_files = ["HISTORY", "Manifest.txt", "README"]
   s.add_dependency("flay", ["> 0.0.0"])  
   s.add_dependency("flog", [">= 1.2.0"])
-  s.add_dependency("rcov", ["> 0.8.1"])
+  s.add_dependency("spicycode-rcov", ["> 0.8.1"])
   s.add_dependency("railroad", [">= 0.5.0"])  
   s.add_dependency("reek", ["> 0.0.0"])
   s.add_dependency("roodi", ["> 0.0.0"])
